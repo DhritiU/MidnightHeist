@@ -25,7 +25,7 @@ To use Midnight Heist, follow these steps:
 
 ## **Authors and Acknowledgment**
 
-Project Title was created by **[Dhriti Udayagiri](https://github.com/username)**.
+Project Title was created by **[Dhriti Udayagiri](https://github.com/DhritiU)**.
 
 Additional contributors include:
 
