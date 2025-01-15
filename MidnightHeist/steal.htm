@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/buttons.css">
+	    <link rel="stylesheet" href="css/texts.css">
+	    <link rel="stylesheet" href="css/styles.css">
+	<script src="scripts/navigation.js"></script>
+    <script src="scripts/stealTW.js"></script>
+    <style>
+        body {
+            background-image: url('c:\\Users\\udaya\\Desktop\\Rashmi\\MidnightHeist\\images\\IMG_2938.JPG');
+            background-size: cover;
+        }
+    </style>
+    </head>
+    <body class="bodyAllPages">
+        <div class="pageHeader">
+			<div class="exitButton">
+				<button class="exitbtn" id="exitBTN" onclick="exit">Exit</button>
+			</div>
+		</div>        
+        <div class="opening">
+	        <span id="stealText"></span>
+	        <span class="cursor">&nbsp;</span>  
+        </div>
+	    <div class="jump">
+		    <button id="jumpButton" class="choiceButton2" onclick="goToJumpCaught()">Jump</button>
+	    </div>
+	    <div class="traffic">
+		    <button id="trafficButton" class="choiceButton1" onclick="goToTraffic()">Traffic</button>
+	    </div>
+        <div id="exitModal" >
+			<div class="container mt-3"> <div style="display: flex; justify-content: center; align-items: center; min-height: 40vh;">
+				<div class="row justify-context-center" >
+					<div id="confirmationModal">
+						<div class="modalContent">
+							<p class="exitText">Are you sure you want to exit?</p>
+							<div class="d-flex justify-content-center">
+								<button id="confirmExit" class="confirmExitButton">Yes</button>
+								<button id="confirmCancel" class="confirmCancelButton">No</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<!-- Excecute this script after HTML loads exitModal element -->
+		<script src="scripts/exit.js"></script>	
+    </body>    
+</html>

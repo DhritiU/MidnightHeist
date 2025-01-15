@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>User Report</title>
+		<link rel="stylesheet" href="css/buttons.css">
+		<link rel="stylesheet" href="css/texts.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/report.css">
+		<script src="scripts/navigation.js"></script>
+		<script src="scripts/report.js"></script>
+	</head>
+
+	<body class="reportBody">
+		<div class="stats-container">
+			<div class="header">
+			   <h1>Game over!</h1>
+			   <div class="result win"><span id="userNamedisplayArea"></span>'s game stats</div>
+			</div>
+			<div class="stats-grid">
+			  <div class="stat-card">
+				<div class="stat-value"><span id="userActivityDisplayArea"></span></div>
+				<div class="stat-label"><span class="stat-icon">🎯</span> Activity</div>
+			  </div> 
+			  <div class="stat-card">
+				<div class="stat-value"><span id="userDurationDisplayArea"></span></div>
+				<div class="stat-label"><span class="stat-icon">⏱️</span> Time in secs</div>
+			  </div>
+			</div>  
+			<button class="play-again-button" onclick="playAgain()">Play Again</button>
+			<button class="exit-game" onclick="signOut()">Sign Out</button>
+		</div>
+		  <!-- Sign out Confirmation Modal -->
+		<div class="modal" id="signOutModal">
+			<div class="modal-content">
+			  <h2>You have been successfully signed out</h2>
+			</div>
+		</div>
+	</body>	
+</html>

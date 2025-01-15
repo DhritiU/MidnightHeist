@@ -1,0 +1,77 @@
+/* CSS */
+
+
+.titleStyle {
+  font-family: "Copperplate", fantasy;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+.secondTitle
+{
+  font-family: "Copperplate", fantasy;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.signIn {
+  font-family: "Lucida Console", monospace;
+  font-size: 3rem;
+  margin-left: 15em;
+  color: white;
+}
+
+.pageHeader{
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main {
+  margin-left: 30em;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.divMain {
+  margin-left: 30em;
+  color: white;
+  font-size: 1.5rem;
+  background-color: lightgrey;
+  width: 300px;
+  border: 10px solid black;
+  padding: 40px;
+  margin: 10px;
+  position: relative;
+  left: 600px;
+  }
+
+.swimCaught{
+  color: white;
+}
+
+.hideSuccessMsg{
+  display : none;
+}
+.cursor
+{
+  display: inline-block;
+  width: 3px;
+  background-color: white;
+  margin-left: 5px;
+}
+
+
+.bodyAllPages
+{
+	margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+	align-items: center;
+}

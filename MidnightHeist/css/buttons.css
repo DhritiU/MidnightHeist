@@ -1,0 +1,230 @@
+.continueButton
+{
+    color: yellow;
+    margin-left: 300px;
+    cursor: pointer;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+  
+    color: #fff;
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+     background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0348d5;
+    --bs-btn-hover-border-color: #0344c9;
+    --bs-btn-active-bg: #0344c9;
+    --bs-btn-active-border-color: #0344c9;
+    --bs-btn-active-color: #fff
+    margin-bottom: 300px;
+    cursor: pointer;
+} 
+
+.submitButton
+{
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #38bcc5;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-family: "Courier New", Monospace;
+  font-weight: bold;
+  font-size: 30px;
+  border: 0;
+  cursor: pointer;
+}
+
+.continueBTN
+{
+    color: #fff;
+    padding: 15px 30px;
+    background-color: #38bcc5;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-family: "Courier New", Monospace;
+    font-weight: bold;
+    font-size: 30px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    bottom:0;
+    margin-bottom: 150px;
+    margin-left: 1300px;
+}
+
+.choiceButton1
+{
+  color: #fff;
+  padding: 15px 30px;
+  background-color: #38bcc5;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-family: "Courier New", Monospace;
+  font-weight: bold;
+  font-size: 30px;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  bottom:0;
+  margin-bottom: 150px;
+  margin-left:  300px;
+}
+
+.choiceButton2
+{
+  color: #fff;
+  padding: 15px 30px;
+  background-color: #38bcc5;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-family: "Courier New", Monospace;
+  font-weight: bold;
+  font-size: 30px;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  bottom:0;
+  margin-bottom: 150px;
+  margin-left: 1500px;
+  float: left
+}
+
+.exitbtn
+{
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #38D2D2;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    font-family: "Courier New", Monospace;
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+}
+
+.exitButton
+{
+    float: right;
+}
+
+#exitModal
+{
+    display: none;
+}
+
+.exitText{
+    color: black; 
+    text-align: center; 
+    font-family: Lucida Console;
+}
+.confirmationModal{
+    display: none;
+    position: fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    width:150%;
+    height:100%;
+    overflow:auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent{
+    background-color: #fefefe;
+    padding: 15px;
+    border: 1px solid #888;
+    width: 320px;
+    border-radius: 5px;
+}
+
+.confirmExitButton1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;    
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+    background-origin: border-box;
+    user-select: none;
+    touch-action: manipulation;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.confirmExitButton
+{
+    color: #fff;
+    padding: 10px 40px;
+    background-color: #38D2D2;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    font-family: "Courier New", Monospace;
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+}
+
+.confirmCancelButton1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+    background-origin: border-box;
+    user-select: none;
+    touch-action: manipulation;
+    width: 30%;
+}
+
+.confirmCancelButton
+{
+    color: #fff;
+    padding: 10px 40px;
+    background-color: #38D2D2;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    font-family: "Courier New", Monospace;
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.d-flex.justify-content-center {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

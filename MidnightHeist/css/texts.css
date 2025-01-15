@@ -1,0 +1,115 @@
+/*Sign In Page*/
+
+.title 
+{
+  font-family: "Copperplate", fantasy;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  border: 0px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+  
+.subTitle
+{
+  font-family: "Copperplate", fantasy;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 220px;
+}
+  
+.signInHeader
+{
+  font-family: "Lucida Console", monospace;
+  margin-left: 80px;
+  font-size: 3rem;
+  color: white;
+}
+  
+  
+.signInBox 
+{
+  color: white;
+  font-size: 1.5rem;
+  width: 500px;
+  height: 440px;
+  border: 2px solid white;
+  padding-left: 50px;
+  padding-top: 10px;
+  backdrop-filter: blur(5px);
+}
+  
+.opening 
+{
+  font-family: "Lucida Console", monospace;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  position: relative;
+  left: 50px;
+  top: 25px;
+  width:1650px;
+  height: 200;
+  border: 1px solid white;
+  padding: 30px;
+  margin: 20px;
+  backdrop-filter: blur(30px);
+}
+  
+.secondPrompt
+{
+  color:white;
+  font-family: "Lucida Console", monospace;
+  font-size: 20px;
+  line-height: 40px;
+  position: relative;
+  left: 50px;
+  top: 30px;
+  width:1700px;
+  height: 180px;
+  border: 1px solid white;
+  padding: 30px;
+  margin: 20px;
+  backdrop-filter: blur(30px);
+}
+
+/*swimCaught page (after pressing the swim choice)*/
+
+.swimCaught
+{
+  color:white;
+  font-family: "Lucida Console", monospace;
+  font-size: 20px;
+  line-height: 40px;
+  position: relative;
+  left: 50px;
+  top: 30px;
+  width:1700px;
+  height: 180px;
+  border: 1px solid white;
+  padding: 30px;
+  margin: 20px;
+  backdrop-filter: blur(30px);
+}
+  
+  .hideSuccessMsg{
+    display : none;
+  }
+  
+  .cursor
+  {
+    display: inline-block;
+    width: 3px;
+    background-color: white;
+    margin-left: 5px;
+  }
+  
+  .error-Message
+  {
+    color:yellow;
+    font-size: 17px;
+  }
