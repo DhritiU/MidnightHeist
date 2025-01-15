@@ -11,7 +11,7 @@ It engages user with prompts and actions to take. Upon game completion, the user
 
 To install Project Title, follow these steps:
 
-1. Clone the repository: **`git clone https://github.com/username/project-title.git`**
+1. Clone the repository: **`git clone https://github.com/DhritiU/MidnightHeist.git`**
 2. Navigate to the project directory: **`cd MidnightHeist`**
 
 ## **Usage**
