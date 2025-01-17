@@ -5,7 +5,7 @@ window.onload = startTypewriter;
 const usernameFromSession = sessionStorage.getItem("name");
 
 // Define the text for the first choice scenario
-const firstChoiceText = usernameFromSession + " begin in a small boat in the Singapore River, close to the city. You are overlooking the city on the boat and figuring out the next best course of action. \n Do you drive the boat all the way to the land or get out and swim to the land?";
+const firstChoiceText = usernameFromSession + " you reach the dock and you spot a boat. Do you drive the boat all the way to the land or get out and swim to the land?";
 const speed = 10;
 let i = 0;
 

@@ -2,7 +2,7 @@
 window.onload=loadTrafficScreen;
 
 // Define the text for the traffic choice scenario
-const trafficText = "You got caught! You call a random cab on the streets but on the way to the museum the cab gets in a car crash. Authorities came and they saw you and recognized you from the boat. They arrested both you and the driver. Driver for drunk driving and you from threatening the police";
+const trafficText = "The streets are extremely crowded as you try to navigate through them. But your 5 years of training covered how to maneuver between cars and you manage to leave the city. You escaped!";
 const speed = 10;
 let i = 0;
 

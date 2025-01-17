@@ -1,7 +1,7 @@
 // This function is called when the window loads
 window.onload=loadJumpScreen;
 
-const jumpText = "You start jumping over buildings but one of the gaps is too big and you fall forwards down to the ground. You become severely injured and the authorities find you. You get caught and end up in jail.";
+const jumpText = "You start driving through the alleys but it is really dark and you are not able to see the wall ahead. Boom! You crashed into it and the authorities that were on your tail caught you!";
 const speed = 10;
 let i = 0;
 /*

@@ -2,7 +2,7 @@
 window.onload = loadSwimCaughtScreen;
 
 // Define the text for the swim caught scenario
-const swimCaughtText = "You got caught!!!";
+const swimCaughtText = "You jump in the water, you try your hardest to swim across the water but the boat catches on to you and you get arrested. You got caught!";
 const speed = 10;
 let i = 0;
 

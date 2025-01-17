@@ -11,7 +11,7 @@ function loadCallScreen()
     storeCallActivity();
 }
 
-const callText = "You got caught! You call a random cab on the streets but on the way to the museum the cab gets in a car crash. Authorities came and they saw you and recognized you from the boat. They arrested both you and the driver. Driver for drunk driving and you from threatening the police";
+const callText = "You call a random cab on the streets but on the way to the museum the cab gets in a car crash. Authorities come and recognize you from the boat. They immediately arrest you!";
 const speed = 10;
 let i = 0;
 /*

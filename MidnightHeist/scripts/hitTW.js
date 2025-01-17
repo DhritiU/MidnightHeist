@@ -2,7 +2,7 @@
 window.onload=startTypewriter;
 
 // Define the text for the hit choice scenario
-const hitText = "You launch a missile at the police boat and start driving to land right away. You have to get away fast because now the authorities have been notified! Chance of getting caught: 45%";
+const hitText = "You launch a missile at the police boat and start driving to land right away. You have to get away fast because now the authorities have been notified of your location! Once you reach land do you call a cab or steal someone's motorcycle?";
 const speed = 10;
 let i = 0;
 
